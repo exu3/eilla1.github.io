@@ -13,6 +13,28 @@
   <body>
     <h1>Hello, world!</h1>
 
+    <!--hover tabs-->
+    <div class="tab">
+        <button class="tablinks" onmouseover="openCity(event, 'London')">London</button>
+        <button class="tablinks" onmouseover="openCity(event, 'Paris')">Paris</button>
+        <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">Tokyo</button>
+      </div>
+      
+      <div id="London" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+      
+      <div id="Paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+      
+      <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
