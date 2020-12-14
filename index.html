@@ -7,12 +7,23 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <!--other css-->
+    <link rel="stylesheet" href="nav-bar.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Hello, world!</title>
   </head>
   <body>
     <h1>Hello, world!</h1>
-
+<!--nav-->
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#about">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
     <!--hover tabs-->
     <div class="tab">
         <button class="tablinks" onmouseover="openCity(event, 'London')">London</button>
