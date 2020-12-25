@@ -1,14 +1,12 @@
-$(document).ready(function () {
+const nav = document.querySelector(".elements");
+const button = document.querySelector(".rows");
+const lines = document.querySelectorAll(".span");
 
+function toggler() {
+    nav.classList.toggle("sidebar");
+    lines[0].classList.toggle("line-0");
+    lines[1].classList.toggle("line-1");
+    lines[2].classList.toggle("line-2");
+  }
 
-    // CLOSES RESPONSIVE MENU WHEN USER CLICKS LINK
-    const links = document.querySelectorAll('.nav-links');
-
-    links.forEach((link) => {
-        link.addEventListener('click', function () {
-            document.querySelector('#check').checked = false;
-        })
-
-    });
-
-});
+  button.addEventListener("click", toggler);
