@@ -2,5 +2,4 @@
 
 Hello world!
 
-hihihi. I am a human from Earth. Nice to meet you world!
-Have a nice day!
+repository for trying out random things in HTML/CSS and JavaScript!
