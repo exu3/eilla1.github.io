@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width">
+        <title>Portal</title>
+        <link rel="stylesheet" href="assets/css/portal.css">
+    </head>
+    <body>
+        <div class="main-div" id="login-div">
+            <h3>What is the secret?</h3>
+            <input type="email" placeholder="Email..." id="email_field">
+            <input type="password" placeholder="Password..." id="password_field"><br>
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div class="loggedin_div" id="user_div">
+            <h3>Yay you're here! Now what??? (idk)</h3>
+            <button onclick="logout()">Logout</button>
+        </div>
+        
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+        <!--   TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <!-- <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script> -->
+        
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+                apiKey: "AIzaSyC-OyUxpfLhoWS2-eDE8w8Lv9B66Ejbt-Q",
+                authDomain: "magic-portal-8fa3c.firebaseapp.com",
+                projectId: "magic-portal-8fa3c",
+                storageBucket: "magic-portal-8fa3c.appspot.com",
+                messagingSenderId: "35288563416",
+                appId: "1:35288563416:web:ef3665c134a21da48a61ad",
+                measurementId: "G-QWQDWB89Q1"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+        </script>
+        <script src="assets/js/portal.js"></script>
+    </body>
+</html>

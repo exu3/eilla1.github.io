@@ -1,0 +1,39 @@
+body {
+    background: #81c9ce;
+    color: #ffffff;
+  }
+
+  input {
+      border-radius: 10px;
+      width: 70%;
+      margin: 8px 0;
+      padding: 2px;
+  }
+
+  input:focus {
+      border: 3px solid #ffc36a;
+  }
+
+  button {
+      border-radius: 8px;
+      background-color: #ffffff;
+      border: 3px solid #ffc35a;
+      margin: auto;
+
+  }
+
+  button:hover {
+      background-color: #ffc36a;
+  }
+
+  .main-div {
+      margin: auto;
+      width: 50%;
+      border: 3px solid black;
+      padding: 20px;
+      background-color: #d4d4d4;
+      color: #000000;
+      display: block;
+      justify-content: center;
+      align-items: center;
+  }
