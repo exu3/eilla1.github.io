@@ -1,0 +1,16 @@
+body {
+	background-color: black;
+	color: #ffffff;
+}
+
+a {
+	color: #13f4ef;
+}
+
+.color-green {
+	color: #47fd41;
+}
+
+.list-style-none {
+	list-style: none;
+}
