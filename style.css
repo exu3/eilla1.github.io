@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  font-family: "Fraunces", serif;
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: -10px;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.container {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p,
+a {
+  color: gray;
+  line-height: 1.7em;
+  font-size: 14pt;
+}
+
+p {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+p.show {
+  opacity: 1;
+}
+
+p.choice {
+  text-align: center;
+}
+
+a:hover {
+  color: black;
+}
